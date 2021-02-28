@@ -52,7 +52,7 @@ output = (
    f"----------------------------\n"
    f"Total Months: {month}\n"
    f"Total: ${total_net_amt}\n"
-   f"Average  Change: ${average_change}\n"
+   f"Average Change: ${average_change}\n"
    f"Greatest Increase in Profits: {greatest_increase[0]} (${greatest_increase[1]})\n"
    f"Greatest Decrease in Profits: {greatest_decrease[0]} (${greatest_decrease[1]})\n")
 
