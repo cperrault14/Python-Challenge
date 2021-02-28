@@ -26,4 +26,8 @@ This python project teaches the following:
   
   
       g. Export the output to a text file from local directory
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     
+    PyPoll Project:
+    
+    In this project, an election dataset in csv format was opened and read from a local directory. 
