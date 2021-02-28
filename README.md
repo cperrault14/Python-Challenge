@@ -4,7 +4,7 @@
 2021 - Data Analytics Bootcamp
 
 
-      Here are some concepts that were covered in this Python Project:
+    Here are some concepts that were covered in this Python Project:
 
       a. Assigning variables in Python
   
