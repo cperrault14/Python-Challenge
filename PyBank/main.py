@@ -30,7 +30,7 @@ with open(r"C:\Users\cperr\Desktop\Python-Challenge\PyBank\Resources\budget_data
             greatest_increase[1] = profit_loss_change
         if profit_loss_change < greatest_decrease[1]:
             greatest_decrease[0] = row[0]
-            greatest_decrease [1] = net_change
+            greatest_decrease [1] = profit_loss_change
 # #Calculating the change from one month to the next by 
 # #Creating a new column and record the value by shifting the current month 1 row down.
 
