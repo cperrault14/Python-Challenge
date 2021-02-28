@@ -4,7 +4,7 @@
 2021 - Data Analytics Bootcamp
 
 
-      This python project teaches the following:
+      Here are some concepts that were covered in this Python Project:
 
       a. Assigning variables in Python
   
@@ -15,7 +15,7 @@
       c. Looping through the dataset to return desired results
   
   
-      d. Creating dictionaries when necessary to store additional values to call upon later on
+      d. Creating dictionaries and accessing keys as a list when necessary to store additional values to call upon later on
   
   
       e. Printing data in desired formats 
@@ -24,12 +24,13 @@
       f. Creating summary data as output
   
   
-      g. Export the output to a text file from local directory
+      g. Exporting output elements to a text file from local directory
       
       
-      i. How to push commits to githu repo on a regular basis and vice versa (from local environment)
+      i. Pushing commits to github repo on a regular basis and vice versa (from local environment)
       
-      j. How to quickly create folders and files to use in directory
+      
+      j. Creating folders and files to use in directory
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------
     
     PyBank Project:
