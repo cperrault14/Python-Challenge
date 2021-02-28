@@ -4,8 +4,7 @@
 2021 - Data Analytics Bootcamp
 
 
-This python project teaches the following:
-
+      This python project teaches the following:
 
       a. Assigning variables in Python
   
