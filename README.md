@@ -7,23 +7,23 @@
 This python project teaches the following:
 
 
-  a. Assigning variables in Python
+      a. Assigning variables in Python
   
   
-  b. Opening and reading csv file from directory
+      b. Opening and reading csv file from directory
   
   
-  c. Looping through the dataset to return desired results
+      c. Looping through the dataset to return desired results
   
   
-  d. Creating dictionaries when necessary to store additional values to call upon later on
+      d. Creating dictionaries when necessary to store additional values to call upon later on
   
   
-  e. Printing data in desired formats 
+      e. Printing data in desired formats 
   
   
-  f. Creating summary data as output
+      f. Creating summary data as output
   
   
-  g. Export the output to a text file from local directory
-  
+      g. Export the output to a text file from local directory
+    
