@@ -1,5 +1,9 @@
 # Python-Challenge1
+
+
 2021 - Data Analytics Bootcamp
+
+
 This python project teaches the following:
   a. Assigning variables in Python
   b. Opening and reading csv file from directory
