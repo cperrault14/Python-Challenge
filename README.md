@@ -64,3 +64,6 @@
       d. The winner of the election based on popular vote.
  
     Lastly, a summary of the results was exported to a text file that is available in the Analysis folder. 
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+    Concepts from https://www.w3schools.com/python/ref_dictionary_keys.asp was used to work through the program's code. 
