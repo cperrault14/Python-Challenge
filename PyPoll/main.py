@@ -47,7 +47,7 @@ for key in vote_percentages:
 print("--------------------------------------------")
 print(f"Winner: {winner}")
 
-#SUmmary of results as Output
+#Summary of results as Output
 output = (
    f"\nElection Results\n"
    f"----------------------------\n"
@@ -58,5 +58,5 @@ output = (
    f"O'Tooley: 3% (105630)\n"
    f"Winner: {winner}\n")
 
-with open("poll.txt", 'w') as text_file:
+with open("C:\\Users\\cperr\\Desktop\\Python-Challenge1\\PyPoll\\Analysis\\poll.txt", 'w') as text_file:
     text_file.write(output)
