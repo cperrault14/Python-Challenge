@@ -66,4 +66,4 @@
     Lastly, a summary of the results was exported to a text file that is available in the Analysis folder. 
     ------------------------------------------------------------------------------------------------------------------------------------------------------------------
     
-    Concepts from https://www.w3schools.com, https://www.stackoverflow.com were used to work through the program's code. 
+    Concepts from https://www.w3schools.com, https://www.stackoverflow.com were used to work through the program's code and troubleshoot error messages.
