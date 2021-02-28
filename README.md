@@ -35,7 +35,7 @@
     
     PyBank Project:
     
-    In this project, an election dataset in csv format was opened and read from a local directory. The csv file was parsed through to access information and calculate several things such as:
+    In this project, a budget dataset in csv format was opened and read from a local directory. The csv file was parsed through to access information and calculate several things such as:
     
     a. The total number of months included in the dataset
 
