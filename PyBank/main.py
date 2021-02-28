@@ -7,15 +7,15 @@ with open(r"C:\Users\cperr\Desktop\Python-Challenge\PyBank\Resources\budget_data
     csv_reader = reader(file, delimiter=',')
     next(csv_reader, None)
 
-#Looping through the data to collect the answers
+#Looping through the csvfile to return desired results
     for row in csv_reader:
         month = month + 1
         net_total_amt = net_total_amt + int(row[1])
     print("Total Month:", month)
     print(f"Net Total Amount: ${net_total_amt}\n")
 
-#In order to calculate  the change from one month to the next: 
-#Create a new column and record the value by shifting the current month 1 row down.
+#Calculating the change from one month to the next by 
+#Creating a new column and record the value by shifting the current month 1 row down.
 profit_loss_previous = 0
 profit_loss_change = 0
 profit_loss_change_list = []
@@ -23,13 +23,13 @@ month_change = []
 greatest_increase = ["", 0]
 greatest_decrease = ["", 99999999999]
 
-#changes of revenue calculations
+#changes of profit_loss calculations
 profit_loss_change = int(row[1]) - profit_loss_previous
 profit_loss_previous = int(row[1])
 month_change = month_change + [row[0]]
 # print(month_change)
 
-           #Greatest Increase value
+#Greatest Increase value
 if (profit_loss_change > greatest_increase[1]):
     greatest_increase[1] = profit_loss_change
     greatest_increase[0] = row[0]
@@ -43,7 +43,4 @@ else:
 
 print("Average Change:", average_change)
 
-
-
-
-    average_change = sum(differences) / len(differences)
+#average_change = sum(differences) / len(differences)
