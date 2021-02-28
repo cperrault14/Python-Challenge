@@ -15,13 +15,22 @@ with open(r"C:\Users\cperr\Desktop\Python-Challenge\PyBank\Resources\budget_data
 #Looping through the csvfile to return desired results
     for row in csv_reader:
         month = month + 1
-        total_net_amt = net_total_amt + int(row[1])
-        print("Total Month:", month)
-        print(f"Net Total Amount: ${net_total_amt}\n")
+        total_net_amt = total_net_amt + int(row[1])
+        # print("Total Month:", month)
+        # print(f"Net Total Amount: ${total_net_amt}\n")
         previous_change = int(row[1])
         profit_loss_change = int(row[1]) - previous_change
-        print(profit_loss_change)
-
+        # print(profit_loss_change)
+        profit_loss_change_list = profit_loss_change_list + [profit_loss_change]
+        month_change = month_change + [row[0]]
+        # print(month_change)
+        #Creating conditionals to set what the profit_loss_change index will be, 0 or 1
+        if profit_loss_change > greatest_increase[1]:
+            greatest_increase[0] = row[0]
+            greatest_increase[1] = profit_loss_change
+        if profit_loss_change < greatest_decrease[1]:
+            greatest_decrease[0] = row[0]
+            greatest_decrease [1] = net_change
 # #Calculating the change from one month to the next by 
 # #Creating a new column and record the value by shifting the current month 1 row down.
 
